@@ -29,13 +29,19 @@ h1, h2, h3, h5 {
     font-weight: bolder;
     font-family: "Ubuntu", sans-serif;
 }
-header .container, main .container, footer .container {
+main .container, footer .container {
     max-width: 855px;
     margin: auto;
+}
+header .container {
+    max-width: 855px;
+    margin: auto;
+    /* padding-top: 20px; */
 }
 header {
     background: white;
     overflow: auto;
+    /* margin: 20px; */
 }
 header h1 {
     float: left;
@@ -43,10 +49,14 @@ header h1 {
     font-style: italic;
     font-size: 3em;
     color: #b33;
+    padding-top: 20px;
 }
 .left {
     float: left;
     width: 570px;
+}
+.left h2 {
+    padding: 10px;
 }
 header nav, .right, .sitemap {
     float: right;
