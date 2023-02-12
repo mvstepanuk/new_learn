@@ -10,7 +10,17 @@ header .container, main .container, footer .container {
 }
 header {
     background: white;
+    overflow: auto;
+}
+header h1, .left, .contact {
+    float: left;
+    width: 570px;
+}
+header nav, .right, .sitemap {
+    float: right;
+    width: 285px;
 }
 main {
     background: white;
+    overflow: auto;
 }
